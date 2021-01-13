@@ -4,17 +4,13 @@
 
 Software Engineering Project **Version 1.0**
 
-![](SRS%20Complete.001.png)
+![UET Logo](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.001.png?raw=true)
 
 **Group Id:**  SE-PID-09
 
-**Group Members:**  
-Rehman Ali  (2018-CS-17)
-Daniyal Iqbal (2018-CS-20)
-Zargham Asim (2018-CS-42) 
-**Supervisor Name:**  
-Ms. Taliah Tajammal
-Department of Computer Science University of Engineering and Technology Lahore
+**Group Members:** <ul><li>Rehman Ali  (2018-CS-17)</li><li>Daniyal Iqbal (2018-CS-20)</li><li>Zargham Asim (2018-CS-42)</li></ul>
+**Supervisor Name:**  <ul><li>Ms. Taliah Tajammal</li></ul>
+**Department of Computer Science University of Engineering and Technology Lahore**
 
 ## Introduction
 
@@ -53,10 +49,10 @@ Admin should know how to tackle and solve small problems including every error a
 **Employee:**
 The employee can manage its own database and can view salary, pay slip, allowance and attendances/leaves.
 
-### General Constraints
+## General Constraints
 This project focusses on one branch of organization at a time and there is no functionality for other branches of organization to be interlinked.
 
-### Assumptions & Dependencies
+## Assumptions & Dependencies
 There are many factors that affect the requirements specified in the SRS. These include:
 1. Every user of this system should have the good internet speed of 20k or above.
 2. To avoid the unauthorized access to this system, the login and passwords will be kept confidential keeping in consideration the security of organization.
@@ -64,41 +60,41 @@ There are many factors that affect the requirements specified in the SRS. These 
 
 ## Specific Requirements
 
-### External Interface Requirements
+## External Interface Requirements
 
-**User Interfaces** 
+**User Interfaces:** 
 Login Page
 
-![](SRS%20Complete.002.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.002.png?raw=true)
 
 **T1:** As Admin, I shall be able to select my role as admin and login the system.
 **T2:** As Employee, I shall be able to choose my role as employee and login the system.
 Create New User Page
 
-![](SRS%20Complete.003.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.003.png?raw=true)
 
 **T1:** As an admin, I can add new employee and assign an I'd and password to that specific employee. Employee’s Record
 
-![](SRS%20Complete.004.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.004.png?raw=true)
 
 **T1:** As an admin, I shall be able to brows the image of employee and select the image. **T2:** As an admin, I can save the record of employees.
 
 Employee’s Attendance:
 
-![](SRS%20Complete.005.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.005.png?raw=true)
 
 **T1:** As an admin, I can add the attendance of employee. So, it can be seen in future that specific employee was present in specific day or not.
 
 Employee Leave Page
 
-![](SRS%20Complete.006.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.006.png?raw=true)
 
 **T1:** As an admin, I can accept employee leave. **T2:** As an admin, I can reject employee leave.
 
 Rest of pages are not included because they have same format.
 
 ## Functional Requirements
-1. **Admin**
+**1. Admin**
 2. Admin shall be able to login.
 3. Admin shall be able to manage employee. 
 4. Admin shall be able to manage working history of employee.
@@ -108,7 +104,7 @@ Rest of pages are not included because they have same format.
 8. Admin shall be able to manage salary, loan and allowances of employee.
 9. Admin shall be able to search the specific employee.
 
-2. **Employee**
+**2. Employee**
 
 10. Employee shall be able to login.
 11. Employee shall review their information.
@@ -117,7 +113,7 @@ Rest of pages are not included because they have same format.
 14. Employee shall be able to see their attendance.
 15. Employee shall be able to request for a leave.
 
-3. **Use Cases**
+**3. Use Cases**
 
 |**Use Case Title: Login**|
 | - |
@@ -130,6 +126,8 @@ Rest of pages are not included because they have same format.
 |<p>**Post Conditions:** </p><p>- User is either logged in or failed to login and is appropriately informed.</p>|
 |**Open issues:** If the user is not registered. One will have wait for one day to process complaint to the administrator.|
 |**Authority:** Admin, employee|
+
+
 
 
 |**Use Case Title: Manage Employee**|
@@ -145,6 +143,9 @@ Rest of pages are not included because they have same format.
 |**Authority:** Admin|
 
 
+
+
+
 |**Use Case Title: Manage Working History of Employee**|
 | - |
 |**Use Case Id:** 3|
@@ -158,6 +159,9 @@ Rest of pages are not included because they have same format.
 |**Authority:** Admin|
 
 
+
+
+
 |**Use Case Title: Manage Promotion of Employee**|
 | - |
 |**Use Case Id:** 4|
@@ -169,6 +173,9 @@ Rest of pages are not included because they have same format.
 |**Post Conditions:**<p>- Promotion of already existing employees occurs or failed and user is appropriately informed.</p>|
 |**Open issues:**<p>1. What if the system displays an error message?</p><p>2. What if user employee is not present?</p><p>3. What if there is no connection with database?</p><p>4. What if the database crashes?</p>|
 |**Authority:** Admin|
+
+
+
 
 
 |**Use Case Title: Manage Attendance of Employee**|
@@ -301,7 +308,7 @@ Rest of pages are not included because they have same format.
 |**Authority:** Employee|
 
 
-4. ## Non-Functional Requirements
+##4. Non-Functional Requirements
 - Performance
   - Huge Data
     - System will deal with huge data and doesn’t crash for safety.
@@ -317,15 +324,15 @@ Rest of pages are not included because they have same format.
 
 ## Methodology
 
-### Adopted Methodology
+## Adopted Methodology
 
 The adopted methodology for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
 
-### Diagram of Methodology
+## Diagram of Methodology
 
-![](SRS%20Complete.008.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.008.png?raw=true)
 
-### Reason of Choosing Methodology
+## Reason of Choosing Methodology
 - It is flexible and** adaptable nature throughout the** entire process.
 - The Daily Scrum is a short meeting that ensure the teams are in the habit of communicating, solving problems, and creating ideas together.
 - It focuses on team work.
@@ -333,27 +340,26 @@ The adopted methodology for this project is SCRUM. SCRUM is agile methodology. S
 
 ## Project Work Plan
 
-![](SRS%20Complete.009.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.009.png?raw=true)
 
-![](SRS%20Complete.010.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.010.png?raw=true)
 
-![](SRS%20Complete.011.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.011.png?raw=true)
 
-![](SRS%20Complete.012.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.012.png?raw=true)
 
-![](SRS%20Complete.013.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.013.png?raw=true)
 
-![](SRS%20Complete.014.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.014.png?raw=true)
 
-![](SRS%20Complete.015.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.015.png?raw=true)
 
-![](SRS%20Complete.016.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.016.png?raw=true)
 
-![](SRS%20Complete.017.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.017.png?raw=true)
 
-![](SRS%20Complete.018.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.018.png?raw=true)
 
-![](SRS%20Complete.019.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.019.png?raw=true)
 
-![](SRS%20Complete.020.png)
-PAGE25 **|** Software Requirement Specification![](SRS%20Complete.021.png)
+![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.020.png?raw=true)
