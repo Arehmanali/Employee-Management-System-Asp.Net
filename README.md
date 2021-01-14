@@ -69,7 +69,7 @@ Login Page
 
 **T1:** As Admin, I shall be able to select my role as admin and login the system.
 **T2:** As Employee, I shall be able to choose my role as employee and login the system.
-Create New User Page
+**Create New User Page**
 
 ![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.003.png?raw=true)
 
