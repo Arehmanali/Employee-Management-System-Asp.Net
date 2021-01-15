@@ -95,23 +95,24 @@ Rest of pages are not included because they have same format.
 
 ## Functional Requirements
 **1. Admin**
-2. Admin shall be able to login.
-3. Admin shall be able to manage employee. 
-4. Admin shall be able to manage working history of employee.
-5. Admin shall be able to manage promotion of employee.
-6. Admin shall be able to manage attendances of employee.
-7. Admin shall be able to manage leaves of employee
-8. Admin shall be able to manage salary, loan and allowances of employee.
-9. Admin shall be able to search the specific employee.
+
+1. Admin shall be able to login.
+2. Admin shall be able to manage employee. 
+3. Admin shall be able to manage working history of employee.
+4. Admin shall be able to manage promotion of employee.
+5. Admin shall be able to manage attendances of employee.
+6. Admin shall be able to manage leaves of employee
+7. Admin shall be able to manage salary, loan and allowances of employee.
+8. Admin shall be able to search the specific employee.
 
 **2. Employee**
 
-10. Employee shall be able to login.
-11. Employee shall review their information.
-12. Employee shall be able to manage their personal information.
-13. Employee shall be able to see their salary.
-14. Employee shall be able to see their attendance.
-15. Employee shall be able to request for a leave.
+09. Employee shall be able to login.
+10. Employee shall review their information.
+11. Employee shall be able to manage their personal information.
+12. Employee shall be able to see their salary.
+13. Employee shall be able to see their attendance.
+14. Employee shall be able to request for a leave.
 
 **3. Use Cases**
 
