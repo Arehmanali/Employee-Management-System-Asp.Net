@@ -1,10 +1,10 @@
 # Employee Management System
 
-**Software Requirements Specificantion**
+**Software Requirements Specification**
 
 Software Engineering Project **Version 1.0**
 
-![UET Logo](https://github.com/Arehmanali/SE-PID-09/img/SRS%20Complete.001.png?raw=true)
+![UET-Logo](https://github.com/Arehmanali/SE-PID-09/img/SRS%20Complete.001.png?raw=true)
 
 **Group Id:**  SE-PID-09
 
