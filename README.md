@@ -1,7 +1,6 @@
 # Employee Management System
 
-**Software Requirements Spe
-hhcification**
+**Software Requirements Spiecification**
 
 Software Engineering Project **Version 1.0**
 
