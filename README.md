@@ -1,6 +1,6 @@
 # Employee Management System
 
-**Software Requirements Spiecification**
+**Software Requirements Specification**
 
 Software Engineering Project **Version 1.0**
 
@@ -337,7 +337,7 @@ The adopted methodology for this project is SCRUM. SCRUM is agile methodology. S
 - It is flexible and** adaptable nature throughout the** entire process.
 - The Daily Scrum is a short meeting that ensure the teams are in the habit of communicating, solving problems, and creating ideas together.
 - It focuses on team work.
-- Throughout the SPRINTS, there is always visibility on the team’s tasks and the progress of each task. In addition, everyone uses the same terminology and understands their role and responsibilities.
+- Throughout the SPRINTS, therghjhe is always visibility on the team’s tasks and the progress of each task. In addition, everyone uses the same terminology and understands their role and responsibilities.
 
 ## Project Work Plan
 
