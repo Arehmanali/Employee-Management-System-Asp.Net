@@ -4,7 +4,7 @@
 
 Software Engineering Project **Version 1.0**
 
-![UET-Logo](https://github.com/Arehmanali/SE-PID-09/img/SRS%20Complete.001.png?raw=true)
+![UET-Logo](https://github.com/Arehmanali/SE-PID-09/blob/master/src/img/SRS%20Complete.001.png?raw=true)
 
 **Group Id:**  SE-PID-09
 
@@ -65,7 +65,7 @@ There are many factors that affect the requirements specified in the SRS. These 
 **User Interfaces:** 
 Login Page
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.002.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/master/src/img/SRS%20Complete.002.png?raw=true)
 
 **T1:** As Admin, I shall be able to select my role as admin and login the system.
 **T2:** As Employee, I shall be able to choose my role as employee and login the system.
