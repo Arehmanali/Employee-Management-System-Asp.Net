@@ -4,7 +4,7 @@
 
 Software Engineering Project **Version 1.0**
 
-![UET-Logo](https://github.com/Arehmanali/SE-PID-09/blob/master/src/img/SRS%20Complete.001.png?raw=true)
+![UET-Logo](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.001.png?raw=true)
 
 **Group Id:**  SE-PID-09
 
@@ -65,29 +65,29 @@ There are many factors that affect the requirements specified in the SRS. These 
 **User Interfaces:** 
 Login Page
 
-![](https://github.com/Arehmanali/SE-PID-09/blob/master/src/img/SRS%20Complete.002.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.002.png?raw=true)
 
 **T1:** As Admin, I shall be able to select my role as admin and login the system.
 **T2:** As Employee, I shall be able to choose my role as employee and login the system.
 **Create New User Page**
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.003.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.003.png?raw=true)
 
 **T1:** As an admin, I can add new employee and assign an I'd and password to that specific employee. Employee’s Record
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.004.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.004.png?raw=true)
 
 **T1:** As an admin, I shall be able to brows the image of employee and select the image. **T2:** As an admin, I can save the record of employees.
 
 Employee’s Attendance:
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.005.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.005.png?raw=true)
 
 **T1:** As an admin, I can add the attendance of employee. So, it can be seen in future that specific employee was present in specific day or not.
 
 Employee Leave Page
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.006.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.006.png?raw=true)
 
 **T1:** As an admin, I can accept employee leave. **T2:** As an admin, I can reject employee leave.
 
@@ -331,7 +331,7 @@ The adopted methodology for this project is SCRUM. SCRUM is agile methodology. S
 
 ## Diagram of Methodology
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.008.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.008.png?raw=true)
 
 ## Reason of Choosing Methodology
 - It is flexible and** adaptable nature throughout the** entire process.
@@ -341,26 +341,26 @@ The adopted methodology for this project is SCRUM. SCRUM is agile methodology. S
 
 ## Project Work Plan
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.009.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.009.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.010.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.010.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.011.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.011.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.012.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.012.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.013.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.013.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.014.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.014.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.015.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.015.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.016.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.016.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.017.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.017.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.018.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.018.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.019.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.019.png?raw=true)
 
-![](https://github.com/Arehmanali/SE-PID-09/src/img/SRS%20Complete.020.png?raw=true)
+![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.020.png?raw=true)
