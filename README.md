@@ -28,7 +28,7 @@ Basically, this SRS is associated with all the features that make Employee Manag
 |User|All system actors e.g. Admin, Employee.|
 |Manage|Functionalities of the system (View, Add, Delete, Update/Edit)|
 
-## Technologies to be used
+## Technologies to be used i
 
 |**Technology**|**Description**|
 | - | - |
