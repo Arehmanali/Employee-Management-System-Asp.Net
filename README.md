@@ -24,7 +24,7 @@ Basically, this SRS is associated with all the features that make Employee Manag
 
 |Term|Definition|
 | - | - |
-|Stakeholder|Any person with an interest in the project who is not a developer.|
+|Stakeholder|Any person with an interest in the project who is not, a developer.|
 |User|All system actors e.g. Admin, Employee.|
 |Manage|Functionalities of the system (View, Add, Delete, Update/Edit)|
 
