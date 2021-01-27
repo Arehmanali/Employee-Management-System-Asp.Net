@@ -77,7 +77,7 @@ Login Page
 
 ![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.004.png?raw=true)
 
-**T1:** As an admin, I shall be able to brows the image of employee and select the image. **T2:** As an admin, I can save the record of employees.
+**T1:** As an admin, I shall be able to brows the image of the employee and select the image. **T2:** As an admin, I can save the record of employees.
 
 Employee’s Attendance:
 
