@@ -18,7 +18,7 @@ The introduction of the Systhhgem Requirement Specification (SRS) gives us the c
 
 ## Scope
 
-Basically, this SRS is associated with all the features that make Employee Management System live.  This  project  is  being  developed  in  order  to  ensure  smooth  and the  effective  evaluation  of functions provided for the benefits of an organization. From administrative to non–administrative management in an organization, this project provides a complete set of well-ordered solutions to all the problems. This SRS is not only related to a specific module or tool of this project but it also identifies the entire Employee Management System.
+Basically, this SRS is associated with all the features that make Employee Management System live.  This  project  is  being  developed  in  order  to  ensure  smooth  and the  effective  evaluation  of functions provided for the benefits of an organization. From administrative to non–administrative management in an organization, this project provides a complete set of well-ordered solutions to all the problems. This SRS is not only related to a specific module or tool of this project but it is also identifies the entire Employee Management System.
 
 ## Glossary
 
