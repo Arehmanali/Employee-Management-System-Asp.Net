@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Employee Panel</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Icon-Button.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Style.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="padding-left: 0px;padding-right: 20px;">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="EmpPanel.html">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-users"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>EMS</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="EmpPanel.aspx"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="EmpProfile.aspx"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="EmpAttendance.aspx"><i class="fas fa-pen-square"></i><span>Attendence</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="EmpSalaryReport.aspx"><i class="fas fa-heart"></i><span>Salary</span></a></li>
+                    <li class="nav-item" role="presentation" data-toggle="collapse" data-target="#LeaveManagement" class="collapsed">
+                        <a class="nav-link" href="#"><i class="fas fa-window-maximize"></i> Leave Management<span class="fas fa-arrow-down" style="margin-left: 10px;"></span></a>
+                      </li>  
+                      <ul class="sub-menu collapse" id="LeaveManagement" style="background:rgb(54,93,205);font-weight: bold;">
+                        <li><a style="color: white;"class="nav-link" href="EmpLeave.aspx">Apply Leave</a></li>
+                        <li><a style="color: white;" class="nav-link" href="EmpLeaveHistory.aspx">Leave History</a></li>
+                      </ul>
+                    
+                </ul>
+            <div class="text-center d-none d-md-inline" style="margin-top: 50px;"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+    </div>
+    </nav>
+    <div class="d-flex flex-column" id="content-wrapper">
+        <div id="content">
+            <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                    <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav flex-nowrap ml-auto">
+                        <div class="d-none d-sm-block topbar-divider"></div>
+                        <li class="nav-item dropdown no-arrow" role="presentation">
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Dumy Emp</span><img class="border rounded-circle img-profile" src="assets/img/generaluser.png"></a>
+                                <div
+                                    class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
+                                    <a
+                                        class="dropdown-item" role="presentation" href="#"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Activity log</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a></div>
+                </div>
+                </li>
+                </ul>
+        </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="card shadow-lg o-hidden border-0 my-5">
+                <div class="card-header">
+                    <h2 class="text-center">Employee Dashboard</h2>
+                </div>
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="margin-top: 10px;">
+                                <div class="card-header">
+                                    <h4 class="text-center">Basic Info</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-7 offset-lg-0">
+                                            <div class="p-5" style="padding-left: 48px;">
+                                                <div class="text-center"></div>
+                                                <form class="user">
+                                                    <div class="form-group row">
+                                                        <div class="col-sm-6 mb-3 mb-sm-0"><input class="border rounded form-control form-control-user" type="text" id="exampleFirstName" placeholder="Full Name" name="first_name" style="height: 50px;margin-top: 0px;" required=""></div>
+                                                        <div
+                                                            class="col-sm-6"><input class="border rounded form-control form-control-user" type="text" id="exampleFirstName" placeholder="Father Name" name="last_name"></div>
+                                            </div>
+                                            <h6></h6>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 mb-3 mb-sm-0" style="padding-right: 50px;">
+                                                    <h6>Date of Birth</h6><input class="border rounded form-control" type="date" style="height: 50px;width: 240px;" name="date of birth"></div>
+                                                <div class="col-sm-6" style="padding-right: 50px;">
+                                                    <h6>Joining Date</h6><input class="border rounded form-control" type="date" style="height: 50px;width: 240px;" name="date of birth"></div>
+                                            </div>
+                                            <div class="dropdown"><button class="btn btn-primary dropdown-toggle border rounded" data-toggle="dropdown" aria-expanded="false" type="button" style="width: 240px;height: 50px;background-color: rgb(255,255,255);color: rgb(113,109,108);padding-bottom: 6px;margin-bottom: 15px;">Designation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
+                                                <div
+                                                    class="dropdown-menu dropdown-menu-left" role="menu"><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                        </div>
+                                        <div class="dropdown"><button class="btn btn-primary dropdown-toggle border rounded" data-toggle="dropdown" aria-expanded="false" type="button" style="width: 240px;height: 50px;background-color: rgb(255,255,255);color: rgb(113,109,108);padding-bottom: 6px;margin-bottom: 15px;">Designation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</button>
+                                            <div
+                                                class="dropdown-menu dropdown-menu-left" role="menu"><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                    </div>
+                                    </form>
+                                    <div class="text-center"><a class="small" href="forgot-password.html"></a></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div style="width: 300px;height: 250px;"><img src="assets/img/generaluser.png" width="400px" height="100px" style="margin: 20px;margin-left: 50px;width: 200px;height: 250px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header" style="margin-top: 10px;">
+                        <h4 class="text-center">Contact Info</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-lg-7 offset-lg-0">
+                            <div class="p-5" style="padding-left: 48px;">
+                                <div class="text-center"></div>
+                                <form class="user">
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 col-xl-12 mb-3 mb-sm-0">
+                                            <h5>Address</h5><input class="border rounded form-control form-control-user" type="text" id="exampleFirstName" placeholder="Address" name="address" style="height: 50px;margin-top: 0px;width: 410px;"></div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col">
+                                            <h5>Contact</h5><input class="form-control" type="text" name="contact" placeholder="Contact" style="width: 410px;margin-left: 0px;height: 50px;"></div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col">
+                                            <h5>Email</h5><input class="form-control" type="text" name="email" placeholder="Email" style="width: 410px;margin-left: 0px;height: 50px;"></div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col">
+                                            <h5>Salary</h5><input class="form-control" type="text" name="salary" placeholder="Rs." style="width: 410px;margin-left: 0px;height: 50px;"></div>
+                                    </div>
+                                </form>
+                                <div class="text-center"><a class="small" href="forgot-password.html"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <footer class="bg-white sticky-footer">
+        <div class="container my-auto">
+            <div class="text-center my-auto copyright"><span>Copyright © Employee Management System 2020</span></div>
+        </div>
+    </footer>
+    </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
