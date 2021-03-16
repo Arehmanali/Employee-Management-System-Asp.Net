@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.Master.cs" Inherits="SE_Project.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Icon-Button.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Style.css">
+
+    <script>
+        function Confim() {
+            var result = window.confirm('Are you sure?');
+            if (result == true)
+                return true;
+            else
+                return false;
+        }
+    </script>
+
+</head>
+<body id="page-top">
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div id="wrapper">
+            <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+                <div class="container-fluid d-flex flex-column p-0">
+                    <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="AdminPanel.aspx">
+                        <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-users"></i></div>
+                        <div class="sidebar-brand-text mx-3"><span>EMS</span></div>
+                    </a>
+                    <hr class="sidebar-divider my-0">
+                    <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="AdminPanel.aspx"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="AdminProfile.aspx"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="Employee.aspx"><span><i class="fas fa-users"></i>&nbsp;Employee</span></a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="Departments.aspx"><i class="fas fa-home"></i><span>Departments</span></a></li>
+
+                        <li class="nav-item collapsed" role="presentation" data-toggle="collapse" data-target="#AttendanceManagement">
+                            <a class="nav-link" href="#"><i class="fas fa-check"></i>Attendance<span class="fas fa-arrow-down" style="margin-left: 10px;"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="AttendanceManagement" style="background: rgb(54,93,205);">
+                            <li><a style="color: white;" class="nav-link" href="MarkAttendance.aspx">Mark Attendance</a></li>
+                            <li><a style="color: white;" class="nav-link" href="AttendanceHistory.aspx">Attendance History</a></li>
+                        </ul>
+
+                        <li class="nav-item collapsed" role="presentation" data-toggle="collapse" data-target="#LeaveManagement">
+                            <a class="nav-link" href="#"><i class="fas fa-times"></i>Leave Management<span class="fas fa-arrow-down" style="margin-left: 10px;"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="LeaveManagement" style="background: rgb(54,93,205);">
+                            <li><a style="color: white;" class="nav-link" href="LeaveRequests.aspx">Leave Requests</a></li>
+                            <li><a style="color: white;" class="nav-link" href="PendingLeaves.aspx">Pending Leaves</a></li>
+                            <li><a style="color: white;" class="nav-link" href="ApprovedLeaves.aspx">Approved Leaves</a></li>
+                            <li><a style="color: white;" class="nav-link" href="RejectedLeaves.aspx">Not Approved Leaves</a></li>
+                        </ul>
+
+                        <li class="nav-item collapsed" role="presentation" data-toggle="collapse" data-target="#SalaryManagement">
+                            <a class="nav-link" href="#"><i class="fas fa-window-maximize"></i>Salary Management<span class="fas fa-arrow-down" style="margin-left: 10px;"></span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="SalaryManagement" style="background: rgb(54,93,205);">
+                            <li><a style="color: white;" class="nav-link" href="Salary.aspx">Salary History</a></li>
+                            <li><a style="color: white;" class="nav-link" href="GenerateSalary.aspx">Generate Salary</a></li>
+                            <li><a style="color: white;" class="nav-link" href="SalaryReport.aspx">Salary Report</a></li>
+                            <li><a style="color: white;" class="nav-link" href="YearlySalaryReport.aspx">Year Wise Report</a></li>
+                        </ul>
+                    </ul>
+                    <div class="text-center d-none d-md-inline">
+                        <button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button>
+                    </div>
+                </div>
+            </nav>
+            <div class="d-flex flex-column" id="content-wrapper">
+                <div id="content">
+                    <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                        <div class="container-fluid">
+                            <button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+
+                            <asp:HyperLink ID="hlPath" runat="server"></asp:HyperLink>
+
+                            <ul class="nav navbar-nav flex-nowrap ml-auto">
+                                <div class="d-none d-sm-block topbar-divider"></div>
+                                <li class="nav-item dropdown no-arrow" role="presentation">
+                                    <div class="nav-item dropdown no-arrow">
+                                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
+                                            <span>
+                                                <asp:Label ID="lblAdminName" runat="server" class="d-none d-lg-inline mr-2 text-gray-600 small"></asp:Label>
+                                            </span>
+                                            <asp:Image ID="imgAdmin" runat="server" class="border rounded-circle img-profile" />
+                                        </a>
+                                        <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu">
+                                            <a class="dropdown-item" role="presentation" href="AdminProfile.aspx"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" role="presentation" href="AdminProfile.aspx"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" role="presentation" href="AdminLogin.aspx"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <asp:Literal ID="ltMessage" runat="server" Visible="false"></asp:Literal>
+                    <div class="container body-content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
+
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+                    <script src="assets/js/theme.js"></script>
+
+
+                    <hr />
+                    <footer class="md-white sticky-footer">
+                        <div class="container my-auto">
+                            <div class="text-center my-auto copyright"><span>Copyright © Employee Management System By (SE_PID_09) <%: DateTime.Now.Year %></span></div>
+                        </div>
+                    </footer>
+
+                </div>
+    </form>
+</body>
+</html>
