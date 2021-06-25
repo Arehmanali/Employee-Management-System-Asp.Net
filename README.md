@@ -14,7 +14,7 @@ Software Engineering Project **Version 1.0**
 
 ## Introduction
 
-The introductiojhhhfkkledjk of the Systhhgem Requirement Specification (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
+The introductiojjjbvfkkledjk of the Systhhgem Requirement Specification (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
 
 ## Scope
 
@@ -327,7 +327,7 @@ Rest of pages are not included because they have same format.
 
 ## Adopted Methodology
 
-The adopted methodology for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
+The adopted methodoklogy for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
 
 ## Diagram of Methodology
 
