@@ -14,7 +14,7 @@ Software Engineering Project **Version 1.0**
 
 ## Introduction
 
-The introduction of the System Requirement Specjdsfdscation (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
+The introduction of the System Requirement Specjdsfggation (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
 
 ## Scope
 
@@ -126,7 +126,7 @@ Rest of pages are not included because they have same format.
 |**Alternative Flow** <p>3a. There is a problem in the data provided; username and password not valid. </p><p>- System determines that the username and password is incorrect and ask the user to try again.</p>|
 |<p>**Post Conditions:** </p><p>- User is either logged in or failed to login and is appropriately informed.</p>|
 |**Open issues:** If the user is not registered. One will have wait for one day to process complaint to the administrator.|
-|**Authority:** Admin, employee|
+|** :** Admin, employee|
 
 
 
