@@ -14,7 +14,7 @@ Software Engineering Project **Version 1.0**
 
 ## Introduction
 
-The introduction of the System hhbbvjdjsjshssjd (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
+The introduction of the System hhbbvggghshssjd (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
 
 ## Scope
 
