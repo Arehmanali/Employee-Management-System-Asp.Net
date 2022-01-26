@@ -89,7 +89,7 @@ Employee Leave Page
 
 ![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.006.png?raw=true)
 
-**T1:** As an admin, I can accept employee leave. **T2:** As an admin, I can reject employee leave.
+**T1:** As an admin, I can accept empljjhhhhoyee leave. **T2:** As an admin, I can reject employee leave.
 
 Rest of pages are not included because they have same format.
 
