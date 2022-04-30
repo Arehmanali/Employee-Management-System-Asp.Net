@@ -7,14 +7,13 @@ Software Engineering Project **Version 1.0**
 ![UET-Logo](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.001.png?raw=true)
 
 **Group Id:**  SE-PID-09
-
 **Group Members:** <ul><li>Rehman Ali  (2018-CS-17)</li><li>Daniyal Iqbal (2018-CS-20)</li><li>Zargham Asim (2018-CS-42)</li></ul>
 **Supervisor Name:**  <ul><li>Ms. Taliah Tajammal</li></ul>
 **Department of Computer Science University of Engineering and Technology Lahore**
 
 ## Introduction
 
-The introduction of the fsdfsdsosofdsklksj fds (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
+The introduction of the fjjofdsklksj fds (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs.
 
 ## Scope
 
