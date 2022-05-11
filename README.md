@@ -313,7 +313,7 @@ Rest of pages are not included because they have same format.
 
 ## Adopted Methodology
 
-The adopted methofffddfdoklogy for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
+The adopted methkkkofffddfdoklogy for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
 
 ## Diagram of Methodology
 
