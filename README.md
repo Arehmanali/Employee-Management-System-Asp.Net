@@ -1,3 +1,5 @@
+# Employee Management System
+
 ## Introduction
 
 The introduction of the Software Requirement Specification (SRS) gives us the complete overview of the scope, summary and technologies to be used. The main purpose of the document is to recognize, examine and complete awareness of Employee Management System (EMS) in detail. It  summarizes  the  targeted  audience  project,  system's  user  interface,  functional  and  non- functional requirements and needs of the project.
