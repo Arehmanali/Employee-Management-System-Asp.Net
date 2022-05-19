@@ -68,7 +68,7 @@ Login Page
 **T1:** As an admin, I shall be able to brows the image of the employee and select the image. **T2:** As an admin, I can save the record of employees.
 
 Employee’s Attendance:
-
+8
 ![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.005.png?raw=true)
 
 **T1:** As an admin, I can add the attendance of employee. So, it can be seen in future that specific employee was present in specific day or not.
@@ -315,7 +315,7 @@ Rest of pages are not included because they have same format.
 
 ## Adopted Methodology
 
-The adopted fdsjsjshddsd for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
+The adopted sjsjsjshddsd for this project is SCRUM. SCRUM is agile methodology. Scrum principle are consistent with Agile Manifesto and use to guide development activities within the process that incorporates with framework activities. Within each framework activity, work task occurs within the process patterns call sprints. SCRUM emphasize the use of set of the software process patterns and define a set of development actions like BACKLOG, SPRINT, SCRUM MEETING, DEMOS.
 
 ## Diagram of Methodology
 
