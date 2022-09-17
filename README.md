@@ -1,4 +1,4 @@
-KiUp# Employee Management System
+# Employee Management System
 
 ## Introduction
 
