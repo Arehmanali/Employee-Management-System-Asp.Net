@@ -34,7 +34,7 @@ The  users  of  the  system  should  know  the  English  language  basics  and  
 **Admin:**
 Admin should know how to tackle and solve small problems including every error and power failures for the maintenance and smooth running of the system. As the characteristics of admin are concerned, in the aspect of employee, the admin will add a new hired employee and edit/update and delete an existing employee. Admin can calculate the salary of employee i.e calculate loan, dues and allowance etc., manage attendance/leaves and manage work history and promotion of employee.
 
-**Employee:**
+**Me, 8Employee:**
 The employee can manage its own database and can view salary, pay slip, allowance and attendances/leaves.
 
 ## General Constraints
