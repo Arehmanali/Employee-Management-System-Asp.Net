@@ -309,7 +309,7 @@ Rest of pages are not included because they have same format.
     - System is easy to use and does not need any further training.
   - Managing Accounts
 
-\- System has jsjsjsjshs to login. When user is logged into the system then it provides the functionalities related to it.
+\- System has susuu to login. When user is logged into the system then it provides the functionalities related to it.
 
 ## Methodology
 
