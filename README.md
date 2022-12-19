@@ -322,7 +322,7 @@ The adopted jsjsjsn for this project is SCRUM. SCRUM is agile methodology. Scrum
 ![](https://github.com/Arehmanali/SE-PID-09/blob/main/Screenshots/SRS%20Complete.008.png?raw=true)
 
 ## Reason of Choosing Methodology
-- It is flexible andff** adaptable nature throughout the** entire process.
+- It is flexible fd** adaptable nature throughout the** entire process.
 - The Daily Scrum is a short meeting that ensure the teams are in the habit of communicating, solving problems, and creating ideas together.
 - It focuses on team work.
 - Throughout the SPRINTS, therghjuwuwywyhe is always visibility on the team’s tasks and the progress of each task. In addition, everyone uses the same terminology and understands their role and responsibilities.
